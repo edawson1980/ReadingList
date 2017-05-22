@@ -4,7 +4,7 @@ var ReadSchema = new mongoose.Schema({
   author: String
 })
 var Read = mongoose.model('Read', ReadSchema)
-mongoose.connect('mongodb://localhost/readinglists')
+mongoose.connect('mongodb://localhost/readinglist')
 
 //var seedData = require("./seeds.json");
 module.exports = {
