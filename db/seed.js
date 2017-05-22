@@ -1,4 +1,4 @@
-var  = require('./connection.js')['Read']
+var Read = require('./connection.js')['Read']
 var seedData = require('./seeds.json')
 
 Read.remove({}).then(function() {
