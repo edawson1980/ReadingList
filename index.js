@@ -21,7 +21,7 @@ app.get("/", function(req, res){
   res.render("app-welcome");
 });
 
-app.get("/readinglist", function(req, res){
+app.get("/reads", function(req, res){
  Read.find({}).then(function(reads){
    res.render("reads-index", {
      reads: reads
